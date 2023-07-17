@@ -1,0 +1,14 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	LPAREN_T        (
+	ROUND_T         round
+	NUMLIT_T        1.5
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	EOF_T           

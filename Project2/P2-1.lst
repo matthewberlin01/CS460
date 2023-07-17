@@ -1,0 +1,7 @@
+Input file: P2-1.ss
+   1: (define (main)
+   2: 	5
+   3: )
+   4: 
+   5: (main)
+0 errors found in input file

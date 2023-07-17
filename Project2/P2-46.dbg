@@ -1,0 +1,25 @@
+Input file: P2-46.ss
+   1: ;;; This Scheme program uses Rule 4 from
+   2: ;;; the CS 460 Fall 2022 Project Grammar
+   3: 
+   4: (define (main)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+   5: 	(* 5 7)
+	LPAREN_T        (
+	MULT_T          *
+	NUMLIT_T        5
+	NUMLIT_T        7
+	RPAREN_T        )
+   6: )
+	RPAREN_T        )
+   7: 
+   8: (main)
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file
