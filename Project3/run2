@@ -1,0 +1,23 @@
+rm -f a.out
+echo
+echo "--> Interpreting "$1Example7".ss with guile"
+echo
+guile $1Example7.ss |& grep -v ";;;" > tempg
+cat tempg
+echo
+echo "--> Generating .cpp file for "$1Example7".ss with ss2cpp"
+echo
+./ss2cpp $1Example7.ss
+echo
+echo "--> Compiling "$1Example7".cpp with g++"
+echo
+g++ $1Example7.cpp Object.cpp rational.cpp
+echo
+echo "--> Executing a.out"
+echo
+./a.out > tempa
+cat tempa
+echo
+echo "Differences"
+echo
+diff -y tempg tempa

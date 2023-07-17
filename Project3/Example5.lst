@@ -1,0 +1,21 @@
+Input file: Example5.ss
+   1: ;;; Example 5 - Scheme to C++ translation
+   2: 
+   3: (define (test a b)
+   4: 	(display a) (display " < ")
+   5: 	(display b) (display " : ")
+   6: 	(if (< a b)
+   7: 		#t
+   8: 		#f
+   9: 	)
+  10: )
+  11: 
+  12: (define (main)
+  13: 	(display (test 7 -5))
+  14: 	(newline)
+  15: 	(display (test 3/4 4/5))
+  16: 	(newline)
+  17: )
+  18: 
+  19: (main)
+0 errors found in input file

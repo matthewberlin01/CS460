@@ -1,0 +1,16 @@
+Input file: Example1.ss
+   1: ;;; Example 1 - Scheme to C++ translation
+   2: 
+   3: (define (average a b)
+   4: 	b
+   5: 	(/ (+ a b) 2)
+   6: )
+   7: 
+   8: (define (main)
+   9: 	(display "The average of -7 and 5 is ")
+  10: 	(display (average -7 5))
+  11: 	(newline)
+  12: )
+  13: 
+  14: (main)
+0 errors found in input file

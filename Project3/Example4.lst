@@ -1,0 +1,11 @@
+Input file: Example4.ss
+   1: ;;; Example 4 - Scheme to C++ translation
+   2: 
+   3: (define (main)
+   4: 	(display "The sum of 1/2, 5/3, and  6/7 is ")
+   5: 	(display (+ (+ 1/2 5/3) 6/7))
+   6: 	(newline)
+   7: )
+   8: 
+   9: (main)
+0 errors found in input file

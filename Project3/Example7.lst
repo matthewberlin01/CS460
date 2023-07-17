@@ -1,0 +1,12 @@
+Input file: Example7.ss
+   1: ;;; Example 7 - Scheme to C++ translation
+   2: 
+   3: (define (main)
+   4: 	(if (and #t (not #f))
+   5: 		(display '(#t and (not #f)))
+   6: 		(newline)
+   7: 	)
+   8: )
+   9: 
+  10: (main)
+0 errors found in input file

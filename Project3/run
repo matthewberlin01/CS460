@@ -1,0 +1,5 @@
+rm a.out
+guile $1Example3.ss
+
+g++ $1Example3.cpp Object.cpp rational.cpp
+./a.out
